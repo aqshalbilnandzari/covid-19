@@ -23,21 +23,21 @@
                <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="form-group">
                       <strong>Status:</strong>
-                      <label id="status">Resiko Rendah</label>
+                      <label id="status">Resiko Rendah Terpapar Covid-19</label>
                   </div>
               </div>     
         @elseif($survey->yes>7 & $survey->yes<15)
               <div class="col-xs-12 col-sm-12 col-md-12">
                     <div class="form-group">
                         <strong>Status :</strong>
-                        <label id="status">Resiko Sedang</label>
+                        <label id="status">Resiko Sedang Terpapar Covid-19</label>
                     </div>
                 </div>     
         @else
             <div class="col-xs-12 col-sm-12 col-md-12">
                   <div class="form-group">
                       <strong>Status :</strong>
-                      <label id="status">Resiko Tinggi</label>
+                      <label id="status">Resiko Tinggi Terpapar Covid-19</label>
                   </div>
               </div>
         @endif
